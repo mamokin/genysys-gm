@@ -1,0 +1,29 @@
+{
+  "name": "genysys-gm",
+  "version": "1.0.0",
+  "description": "An AIO tool based around the Genysys book released by Fantasy Flight Games.",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "es6-promise": "^4.2.5",
+    "vuex": "^3.0.1"
+  },
+  "scripts": {
+    "test": "parcel index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mamokin/genysys-gm.git"
+  },
+  "keywords": [
+    "genysys",
+    "gm",
+    "gamemaster"
+  ],
+  "author": "Michael Seaward",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/mamokin/genysys-gm/issues"
+  },
+  "homepage": "https://github.com/mamokin/genysys-gm#readme"
+}
