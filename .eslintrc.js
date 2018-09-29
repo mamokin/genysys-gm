@@ -22,20 +22,7 @@ module.exports = {
         2,
         "always"
     ],
-    "jsx-quotes": [
-        2,
-        "prefer-single"
-    ],
-    "react/jsx-curly-spacing": [
-        2,
-        "always"
-    ],
-    "react/prefer-stateless-function": "off",
-    "react/jsx-filename-extension": [1, {
-        "extensions": [".js", ".jsx"]
-    }],
     "comma-dangle": "off",
-    "react/no-deprecated": "off",
     "no-console": "off",
     "no-underscore-dangle": "off",
     "camelcase": "off",
@@ -49,6 +36,7 @@ module.exports = {
     "brace-style": ["error", "1tbs"],
     "default-case": "off",
     "prefer-destructuring": "off",
+    "import/no-named-as-default": 0,
     "max-len": ["error", {
         "code": 100
     }],
@@ -60,13 +48,14 @@ module.exports = {
         "args": "after-used"
     }],
     "class-methods-use-this": [0],
-    "indent": ["error", "tab", {
-        "SwitchCase": 2
-    }],
     "no-throw-literal": [0],
     "operator-assignment": [0]
   },
   parserOptions: {
-    parser: 'babel-eslint',
+    "ecmaVersion": 6,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "modules": true
+    }
   },
 };

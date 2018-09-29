@@ -20,7 +20,12 @@ npm run build
 npm run test
 ```
 
-### Lints and fixes files
+### Lints and fixes files... not working afaik
 ```
 npm run lint
+```
+#### Install eslint locally and lint using local installation.
+```
+npm i
+./node_modules/.bin/eslint --fix
 ```
